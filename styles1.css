@@ -1,0 +1,480 @@
+body{
+    background: #1F0152;
+}
+
+
+
+nav{
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 10px;
+    font-size: 20px;
+    font-family: "Courier New";
+}
+
+.s1{
+    font-size: 40px;
+    color: white;
+    font-family: "Courier New";
+}
+
+.p1{
+    font-size: 44px;
+    color: white;
+    font-family: "Courier New";
+    
+}
+
+.p2{
+    font-size: 40px;
+    color: white;
+    font-family: "Courier New";
+    
+}
+
+.p3{
+    font-size: 31px;
+    color: white;
+    font-family: "Courier New";
+    
+}
+
+.p4{
+    font-size: 30px;
+    color: white;
+    font-family: "Courier New";
+    
+}
+.p5{
+    font-size: 30px;
+    color: white;
+    font-family: "Courier New";
+}
+
+.p6{
+    font-size: 29px;
+    color: white;
+    font-family: "Courier New";
+}
+
+.p7{
+    font-size: 25px;
+    color: white;
+    font-family: "Courier New";
+}
+
+img{
+    display: flex;
+    margin-left: auto;
+    width: 8%;
+}
+.face-image{
+    width: 20%;
+    height: 400px;
+    object-fit: none;
+    
+    margin-top:-200px;
+    margin-left: auto;
+    background:url("images/Face.png") no-repeat;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .column {
+    
+    float: left;
+    width: 20%;
+    padding: 20px;
+  }
+
+  .social-icons{
+    margin-bottom: 200;
+  }
+
+
+  .social-media{
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 0px;
+    float: right;
+    width: 700px; 
+    
+  }
+
+  .logoo{
+    display: flex; 
+    width: 20%;
+  }
+
+  @media only screen and (min-width: 320px) {
+    .s1{
+        font-size: 12px;
+        color: white;
+        font-family: "Courier New";
+    }
+
+    .p1{
+        font-size: 16px;
+    color: white;
+    font-family: "Courier New";
+    }
+
+    .p2{
+        font-size: 12px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    
+    .p3{
+        font-size: 5px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    
+    .p4{
+        font-size: 4px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    .p5{
+        font-size: 4px;
+        color: white;
+        font-family: "Courier New";
+    }
+    
+    .p6{
+        font-size: 2px;
+        color: white;
+        font-family: "Courier New";
+    }
+    
+    .p7{
+        font-size: 1px;
+        color: white;
+        font-family: "Courier New";
+    }
+
+
+}
+
+@media only screen and (min-width: 420px) {
+
+    .s1{
+        font-size: 16px;
+        color: white;
+        font-family: "Courier New";
+    }
+
+    .p1{
+        font-size: 20px;
+    color: white;
+    font-family: "Courier New";
+    }
+
+    .p2{
+        font-size: 16px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    
+    .p3{
+        font-size: 7px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    
+    .p4{
+        font-size: 6px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    .p5{
+        font-size: 6px;
+        color: white;
+        font-family: "Courier New";
+    }
+    
+    .p6{
+        font-size: 5px;
+        color: white;
+        font-family: "Courier New";
+    }
+    
+    .p7{
+        font-size: 1px;
+        color: white;
+        font-family: "Courier New";
+    }
+
+}
+@media only screen and (min-width: 600px) {
+
+    .s1{
+        font-size: 18px;
+        color: white;
+        font-family: "Courier New";
+    }
+
+    .p1{
+        font-size: 22px;
+    color: white;
+    font-family: "Courier New";
+    }
+
+    .p2{
+        font-size: 18px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    
+    .p3{
+        font-size: 9px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    
+    .p4{
+        font-size: 8px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    .p5{
+        font-size: 8px;
+        color: white;
+        font-family: "Courier New";
+    }
+    
+    .p6{
+        font-size: 7px;
+        color: white;
+        font-family: "Courier New";
+    }
+    
+    .p7{
+        font-size: 3px;
+        color: white;
+        font-family: "Courier New";
+    }
+}
+@media only screen and (min-width: 768px) {
+
+    .s1{
+        font-size: 20px;
+        color: white;
+        font-family: "Courier New";
+    }
+
+    .p1{
+        font-size: 24px;
+    color: white;
+    font-family: "Courier New";
+    }
+
+    .p2{
+        font-size: 20px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    
+    .p3{
+        font-size: 11px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    
+    .p4{
+        font-size: 10px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    .p5{
+        font-size: 10px;
+        color: white;
+        font-family: "Courier New";
+    }
+    
+    .p6{
+        font-size: 9px;
+        color: white;
+        font-family: "Courier New";
+    }
+    
+    .p7{
+        font-size: 5px;
+        color: white;
+        font-family: "Courier New";
+    }
+}
+@media only screen and (min-width: 1020px) {
+
+    .s1{
+        font-size: 25px;
+        color: white;
+        font-family: "Courier New";
+    }
+
+    .p1{
+        font-size: 24px;
+    color: white;
+    font-family: "Courier New";
+    }
+
+    .p2{
+        font-size: 25px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    
+    .p3{
+        font-size: 16px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    
+    .p4{
+        font-size: 15px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    .p5{
+        font-size: 15px;
+        color: white;
+        font-family: "Courier New";
+    }
+    
+    .p6{
+        font-size: 14px;
+        color: white;
+        font-family: "Courier New";
+    }
+    
+    .p7{
+        font-size: 10px;
+        color: white;
+        font-family: "Courier New";
+    }
+}
+@media only screen and (min-width: 1350px) {
+
+    .s1{
+        font-size: 30px;
+        color: white;
+        font-family: "Courier New";
+    }
+
+    .p1{
+        font-size: 34px;
+    color: white;
+    font-family: "Courier New";
+    }
+
+    .p2{
+        font-size: 30px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    
+    .p3{
+        font-size: 21px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    
+    .p4{
+        font-size: 20px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    .p5{
+        font-size: 20px;
+        color: white;
+        font-family: "Courier New";
+    }
+    
+    .p6{
+        font-size: 19px;
+        color: white;
+        font-family: "Courier New";
+    }
+    
+    .p7{
+        font-size: 15px;
+        color: white;
+        font-family: "Courier New";
+    }
+}
+@media only screen and (min-width: 1920px) {
+
+    .s1{
+        font-size: 40px;
+        color: white;
+        font-family: "Courier New";
+    }
+
+    .p1{
+        font-size: 44px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    
+    .p2{
+        font-size: 40px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    
+    .p3{
+        font-size: 31px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    
+    .p4{
+        font-size: 30px;
+        color: white;
+        font-family: "Courier New";
+        
+    }
+    .p5{
+        font-size: 30px;
+        color: white;
+        font-family: "Courier New";
+    }
+    
+    .p6{
+        font-size: 29px;
+        color: white;
+        font-family: "Courier New";
+    }
+    
+    .p7{
+        font-size: 25px;
+        color: white;
+        font-family: "Courier New";
+    }
+}
+
+
